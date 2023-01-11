@@ -9,6 +9,6 @@
 <template lang="">
   <AppHeader></AppHeader>
 </template>
-<style lang="">
-  
+<style lang="scss">
+  @use './styles/generals.scss' as *;
 </style>
