@@ -95,7 +95,7 @@
             display: inline-block;
             padding: 1rem;
             text-decoration: none;
-            color: black;
+           
             
 
             &.active,
