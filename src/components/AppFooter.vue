@@ -87,12 +87,15 @@ export default {
        display: flex;
 
         li a{
+           
             display: inline-block;
             padding: 40px;
             text-decoration: none;
             display: flex;
+            align-items: center;
             color: white;
-            font-size: 10px;
+            padding: 0 30px;
+            font-weight: 700;
            
             
         }
