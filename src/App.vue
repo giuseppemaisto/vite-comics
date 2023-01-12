@@ -7,7 +7,7 @@
       components:{
         AppHeader,
         AppContent,
-        CardDC,
+      
         AppFooter
       }
     }
@@ -15,7 +15,7 @@
 <template lang="">
   <AppHeader></AppHeader>
   <AppContent></AppContent>
-  <CardDC></CardDC>
+  
   <AppFooter></AppFooter>
 </template>
 <style lang="scss">
