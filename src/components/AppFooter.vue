@@ -57,6 +57,11 @@ export default {
     </div>
 
     <div class="footer-faq">
+        <div class="logo-dc-footer">
+            <img src="../assets/img/dc-logo-bg.png" alt="">
+        </div>
+    </div>
+    <div class="socials-bar">
 
     </div>
 </div>
@@ -95,12 +100,25 @@ export default {
 }
 
 .footer-faq{
-    max-width: 1000px;
+    min-width: 1000px;
     height: 400px;
-    background-color: black;
-    background-image: url(../assets/img/dc-logo-bg.png);
-   background-repeat: repeat-x;
+   
+    background-image: url(../assets/img/footer-bg.jpg);
+   
+    .logo-dc-footer{
+      
+        background-repeat: no-repeat;
+       position: absolute;
+       left: 60%;
+       
     
+    }
+}
+.socials-bar{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    position: absolute;
 }
 
 </style>
