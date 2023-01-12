@@ -85,6 +85,9 @@
         display: flex;
        padding: 40px;
        justify-content: space-between;
+       nav{
+        height: 100px;
+       }
 
        ul{
         list-style: none;
@@ -101,6 +104,11 @@
             &.active,
             &:hover{
                 color: $primary;
+            }
+            &.active
+            {
+                color: $primary;
+                border-bottom: 2px solid $primary;
             }
         }
        }

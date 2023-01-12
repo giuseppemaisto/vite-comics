@@ -57,6 +57,54 @@ export default {
     </div>
 
     <div class="footer-faq">
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li><strong>DC COMICS</strong></li>
+                    <li><a href="/">Characters</a></li>
+                    <li><a href="/">Comics</a></li>
+                    <li><a href="/">Movies</a></li>
+                    <li><a href="/">TV</a></li>
+                    <li><a href="/">Games</a></li>
+                    <li><a href="/">Videos</a></li>
+                    <li><a href="/">News</a></li>
+                </ul>
+                <ul>
+                    <li><strong>SHOP</strong></li>
+                    <li><a href="/">Shop DC</a></li>
+                    <li><a href="/">Shop DC Collection</a></li>
+                   
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul>
+                    <li><strong>DC</strong></li>
+                    <li><a href="/">Term of Use </a></li>
+                    <li><a href="/">Privacy policy (New)</a></li>
+                    <li><a href="/">Add Choiches</a></li>
+                    <li><a href="/">Advertising</a></li>
+                    <li><a href="/">jobs</a></li>
+                    <li><a href="/">Subscription</a></li>
+                    <li><a href="/">Talent Workshop</a></li>
+                    <li><a href="/">CPSC Certificates</a></li>
+                    <li><a href="/">Ratings</a></li>
+                    <li><a href="/">Shop Help</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><strong>SITES</strong></li>
+                    <li><a href="/">DC</a></li>
+                    <li><a href="/">MAD Magazine</a></li>
+                    <li><a href="/">DC Kids</a></li>
+                    <li><a href="/">DC Universe</a></li>
+                    <li><a href="/">DC Power Visa</a></li>
+                   
+                </ul>
+            </div>
+        </div>
         <div class="logo-dc-footer">
             <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
@@ -71,11 +119,13 @@ export default {
      @use '../styles/partials/variable' as *;
     @use '../styles/partials/mixins' as *;
 .footer-bar{
-    background-color: blue;
-}
-.img-blue{
-    width: 50px;
-    padding-right: 5px;
+    background-color:#3880F1;
+    
+    .img-blue{
+        width: 50px;
+        padding: 5px;
+        vertical-align: middle;
+    }
 }
 .container{
         display: flex;
@@ -88,14 +138,14 @@ export default {
 
         li a{
            
-            display: inline-block;
+           
             padding: 40px;
             text-decoration: none;
             display: flex;
             align-items: center;
             color: white;
             padding: 0 30px;
-            font-weight: 700;
+            font-weight: 300;
            
             
         }
@@ -113,8 +163,32 @@ export default {
         background-repeat: no-repeat;
        position: absolute;
        left: 60%;
+       top:50%;
+       
        
     
+    }
+
+    .row{
+        display: flex;
+
+        .col{
+            padding: 50px;
+    
+            ul{
+               
+                list-style-type: none;
+                padding-bottom: 10px;
+        
+                li{
+                  @include text;
+                }
+                li a{
+                  @include text-list;
+                  font-size: 12px;
+                }
+            }
+        }
     }
 }
 .socials-bar{

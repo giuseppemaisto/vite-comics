@@ -6,3 +6,11 @@
     display: flex;
     justify-content: center;
 }
+@mixin text{
+    color: white;
+    text-decoration: none;
+}
+@mixin text-list{
+    color: gray;
+    text-decoration: none;
+}
