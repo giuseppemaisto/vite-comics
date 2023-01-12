@@ -155,15 +155,14 @@ export default {
 .footer-faq{
     min-width: 1000px;
     height: 400px;
-   
+   display: flex;
     background-image: url(../assets/img/footer-bg.jpg);
    
     .logo-dc-footer{
       
         background-repeat: no-repeat;
-       position: absolute;
-       left: 60%;
-       top:50%;
+        padding-left: 20%;
+       
        
        
     
