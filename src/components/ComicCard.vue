@@ -19,33 +19,36 @@
 </template>
 <style lang="scss" scoped>
     @use '../styles/partials/variable' as *;
-    @use '../styles/partials/mixins' as *;
+    
 
     .comics-card{
        margin: 10px;
-        width: calc(100% / 6 - 20px);
+        width: calc(100% / 6 - 20px );
         margin-bottom : 50px;
-        display: flex;
-        flex-wrap: wrap;
+     
 
         
         .thumb-container{
             width: 100%;
             height: 200px;
     
-    
-            
             .thumb{
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+                object-position: top;
                 
             }
         }
-    }
-    .title-container{
-        text-align: center;
-        color: white;
-        padding: 10px;
-    }
+            
+        
+        .title-container{
+            object-position: top;
+            object-fit: cover;
+            text-align: center;
+            color: white;
+            padding: 5px;
+            text-transform: uppercase;
+        }
+     }
 </style>
