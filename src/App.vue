@@ -1,12 +1,13 @@
     <script>
     import AppHeader from './components/AppHeader.vue'
     import AppFooter from './components/AppFooter.vue'
-    import AppContent from './components/AppContent.vue'
-    import CardDC from './components/CardDC.vue'
+    import ComicsList from './components/ComicsList.vue'
+    import ComicCard from './components/ComicCard.vue'
     export default {
       components:{
         AppHeader,
-        AppContent,
+        ComicsList,
+        ComicCard,
       
         AppFooter
       }
@@ -14,7 +15,7 @@
     </script>
 <template lang="">
   <AppHeader></AppHeader>
-  <AppContent></AppContent>
+  <ComicsList></ComicsList>
   
   <AppFooter></AppFooter>
 </template>
