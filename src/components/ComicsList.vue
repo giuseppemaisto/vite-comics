@@ -31,7 +31,7 @@
         </div>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
      @use '../styles/partials/variable' as *;
     @use '../styles/partials/mixins' as *;
 
@@ -67,7 +67,7 @@
     .comics-container{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         padding-top: 5rem;
     }

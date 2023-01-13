@@ -16,7 +16,7 @@
 <template lang="">
   <AppHeader></AppHeader>
   <ComicsList></ComicsList>
-  
+ 
   <AppFooter></AppFooter>
 </template>
 <style lang="scss">
